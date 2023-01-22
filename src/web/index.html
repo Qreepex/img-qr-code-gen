@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ben Schiemann | QR Generator</title>
+
+    <style>
+      html,
+      body {
+        height: 100%;
+      }
+
+      .parent {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      #qrcode {
+        width: 512px;
+        height: 512px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div id="qrcode"></div>
+    </div>
+
+    <script src="assets/vendor/qr/qrcode.js"></script>
+    <script src="assets/vendor/socket.io/socket.io.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
