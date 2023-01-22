@@ -28,9 +28,7 @@ class Watcher {
     let ready = false;
     this._watcher.on("ready", () => {
       ready = true;
-      console.info(" ");
       console.info("👀 Watcher Ready!");
-      console.info(" ");
     });
 
     this._watcher.on("add", async _path => {

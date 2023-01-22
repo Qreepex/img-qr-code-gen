@@ -35,7 +35,7 @@ class Web {
     this.app.use(express.static(__dirname + "/public"));
 
     this.server.listen(3000, () => {
-      console.log("listening on *:3000");
+      console.log("📷 Displaying on http://localhost:3000");
     });
 
     this.app.get("/", (req, res) => {

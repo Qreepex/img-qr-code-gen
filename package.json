@@ -4,7 +4,7 @@
   "description": "Automatically upload new images to the cloud and display a qr code to download the image",
   "main": "build/index.js",
   "scripts": {
-    "test": "npm run build && node .",
+    "start": "npm run build && node .",
     "copy": "npx shx cp -r src/web/public/ build/web && npx shx cp -r src/web/index.html build/web",
     "build": "tsc && npm run copy"
   },
